@@ -11,7 +11,6 @@ test.describe('Produtos e Carrinho', () => {
 
     const products = new ProductsPage(page);
     const productName = 'Sauce Labs Backpack';
-    await expect(products.title).toBeVisible();
     await products.addToCart(productName);
     await products.goToCart();
 

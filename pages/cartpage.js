@@ -1,4 +1,5 @@
 class CartPage {
+  /** @param {import('@playwright/test').Page} page */
   constructor(page) {
     this.page = page;
     this.cartItems = page.locator('.cart_item');

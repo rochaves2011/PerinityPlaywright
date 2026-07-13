@@ -37,4 +37,3 @@ npx playwright test --headed
 - tests/: cenários automatizados
 - playwright.config.js: configuração do Playwright
 - package.json: dependências e scripts
-

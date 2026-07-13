@@ -1,16 +1,13 @@
 {
-  "name": "perinity",
+  "name": "desafio-qa-playwright-js",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Desafio técnico - QA Pleno (Playwright + JavaScript)",
   "scripts": {
-    "test": "playwright test"
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "devDependencies": {
-    "@playwright/test": "^1.61.1"
+    "@playwright/test": "^1.36.0"
   }
 }

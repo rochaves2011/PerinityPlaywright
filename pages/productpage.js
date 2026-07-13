@@ -1,4 +1,5 @@
-class ProductsPage {
+class ProductsPage { //roberta
+  /** @param {import('@playwright/test').Page} page */
   constructor(page) {
     this.page = page;
     this.title = page.locator('.title');
